@@ -23,6 +23,7 @@
 |
 */
 $config['base_url'] = 'http://localhost/codeigniter/CI/index.php';
+$config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 
 /*
 |--------------------------------------------------------------------------
