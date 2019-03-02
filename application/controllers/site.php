@@ -1,20 +1,10 @@
 <?php
 
-class Site extends CI_Controller
-{
-
-    function index()
-    {
-        $this->load->model('site_model');
-
-        $data['records'] = $this->site_model->getAll();
+class Site extends CI_controller {
+    function index() {
+        $this->load->model('data_model');
+        $data['rows'] = $this->data_model->getAll5();
 
         $this->load->view('home', $data);
     }
-
-    function about()
-    {
-        $this->load->view('about');
-    }
 }
-

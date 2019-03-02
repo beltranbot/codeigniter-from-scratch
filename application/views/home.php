@@ -10,14 +10,13 @@
     <div id="container">
         <p>My view has been loaded</p>
 
-        <pre>
-            <?php print_r($records) ?>
-        </pre>
+        <?php foreach($rows as $row) : ?>
+            <h1> . <?= $row->title ?> </h1>
+        <?php endforeach; ?>
 
-        <?php foreach($records as $row) : ?>
-            <h1>
-                <?php echo $row->title ?>
-            </h1>
+        <?php foreach($rows as $row) : ?>
+            <h1> . <?= $row->title ?> </h1>
+            <h1> . <?= $row->contents ?> </h1>
         <?php endforeach; ?>
     </div>
 </body>
