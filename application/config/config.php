@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/codeigniter/CI/index.php';
+$config['base_url'] = 'http://localhost/codeigniter/CI';
 $config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 
 /*
