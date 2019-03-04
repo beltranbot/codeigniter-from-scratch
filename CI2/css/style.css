@@ -5,11 +5,11 @@ body {
     font-family: arial;
 }
 
-#login_form {
+#login_form, #contact_form {
     width: 300px;
     background: #f0f0f0 url(../img/login_bg.jpg) repeat-x 0 0;
     border: 7px solid white;
-    margin: 200px auto 0;
+    margin: 100px auto 0;
     padding: 1em;
     border-radius: 3px;
     -moz-border-radius: 3px;
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5 {
     text-align: center;
 }
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], textarea {
     display : block;
     margin: 0 0 1em 0;
     width: 200px;
